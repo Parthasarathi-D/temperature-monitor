@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::905418462519:role/s3accessing"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::allsensordata/*"
+        }
+    ]
+}
